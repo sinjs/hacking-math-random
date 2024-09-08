@@ -1,0 +1,17 @@
+{
+  "name": "hacking-math-random",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "challenge": "tsx challenge/index.ts",
+    "solution": "python3 solution/main.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "tsx": "^4.19.0"
+  }
+}
