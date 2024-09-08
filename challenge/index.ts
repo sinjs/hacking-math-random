@@ -23,6 +23,8 @@ const numberGuess = await rl
   .question("What is the next lucky number? ")
   .then((response) => parseFloat(response));
 
+rl.close();
+
 if (Number.isNaN(numberGuess)) {
   console.error("Error: You entered an invalid number!");
   process.exit(1);
