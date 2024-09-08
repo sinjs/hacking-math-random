@@ -56,6 +56,12 @@ sequence_str = """
 """
 ```
 
+You will also need to install dependencies again:
+
+```shell
+pip install -r requirements.txt
+```
+
 Afterwards, you are able to run the solution to predict the next number of the sequence.
 
 ```shell
